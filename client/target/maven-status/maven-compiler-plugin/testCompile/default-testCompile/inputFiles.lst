@@ -1,0 +1,7 @@
+/home/altruist/Development/CS475/assignment_two_cs475/client/src/test/java/edu/gmu/cs475/internal/DeadlockDetectorAndRerunRule.java
+/home/altruist/Development/CS475/assignment_two_cs475/client/src/test/java/edu/gmu/cs475/internal/FailOnTimeoutIfDeadlocked.java
+/home/altruist/Development/CS475/assignment_two_cs475/client/src/test/java/edu/gmu/cs475/ManualClientUnlockImmediatelyTests.java
+/home/altruist/Development/CS475/assignment_two_cs475/client/src/test/java/edu/gmu/cs475/ManualClientUnlockAtEndTests.java
+/home/altruist/Development/CS475/assignment_two_cs475/client/src/test/java/edu/gmu/cs475/P2HeartbeatClientTests.java
+/home/altruist/Development/CS475/assignment_two_cs475/client/src/test/java/edu/gmu/cs475/P1RMIMigrationIntegrationTests.java
+/home/altruist/Development/CS475/assignment_two_cs475/client/src/test/java/edu/gmu/cs475/P4IntegrationTests.java

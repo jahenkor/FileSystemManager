@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: edu.gmu.cs475.ManualClientUnlockImmediatelyTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.871 sec <<< FAILURE! - in edu.gmu.cs475.ManualClientUnlockImmediatelyTests
+testCatAllLocksThenReadsThenUnlocks(edu.gmu.cs475.ManualClientUnlockImmediatelyTests)  Time elapsed: 0.296 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+  Unexpected method call IFileTagManager.unLockFile("testManual1.file1", 102 (long), false):
+    IFileTagManager.unLockFile(<any>, <any>, false): expected: 1, actual: 2
+    IFileTagManager.readFile(<any>): expected: 1, actual: 0
+	at edu.gmu.cs475.ManualClientUnlockImmediatelyTests.testCatAllLocksThenReadsThenUnlocks(ManualClientUnlockImmediatelyTests.java:97)
+
+testCatAllLocksSameOrder(edu.gmu.cs475.ManualClientUnlockImmediatelyTests)  Time elapsed: 0.302 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+  Unexpected method call IFileTagManager.unLockFile("File1", 101 (long), false):
+    IFileTagManager.unLockFile(expected File0 as locked file #0, not File1, <any>, false): expected: 1, actual: 1
+    IFileTagManager.readFile(capture(Nothing captured yet)): expected: 1, actual: 0
+	at edu.gmu.cs475.ManualClientUnlockImmediatelyTests.testCatAllLocksSameOrder(ManualClientUnlockImmediatelyTests.java:171)
+
+testEchoAllLocksSameOrder(edu.gmu.cs475.ManualClientUnlockImmediatelyTests)  Time elapsed: 0.224 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+  Unexpected method call IFileTagManager.unLockFile("File1", 101 (long), true):
+    IFileTagManager.unLockFile(expected File0 as locked file #0, not File1, <any>, true): expected: 1, actual: 1
+    IFileTagManager.writeFile(capture(Nothing captured yet), "content"): expected: 1, actual: 0
+	at edu.gmu.cs475.ManualClientUnlockImmediatelyTests.testEchoAllLocksSameOrder(ManualClientUnlockImmediatelyTests.java:231)
+
+testEchoAllLocksThenWritesThenUnlocks(edu.gmu.cs475.ManualClientUnlockImmediatelyTests)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+  Unexpected method call IFileTagManager.unLockFile("testManual1.file1", 102 (long), true):
+    IFileTagManager.unLockFile(<any>, <any>, true): expected: 1, actual: 2
+    IFileTagManager.writeFile(<any>, "content"): expected: 1, actual: 0
+	at edu.gmu.cs475.ManualClientUnlockImmediatelyTests.testEchoAllLocksThenWritesThenUnlocks(ManualClientUnlockImmediatelyTests.java:70)
+

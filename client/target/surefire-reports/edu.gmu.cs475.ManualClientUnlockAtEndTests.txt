@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: edu.gmu.cs475.ManualClientUnlockAtEndTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.613 sec <<< FAILURE! - in edu.gmu.cs475.ManualClientUnlockAtEndTests
+testCatAllLocksSameOrder(edu.gmu.cs475.ManualClientUnlockAtEndTests)  Time elapsed: 0.321 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+  Unexpected method call IFileTagManager.lockFile("File70", false):
+    IFileTagManager.listFilesByTag("untagged"): expected: 1, actual: 1
+    IFileTagManager.lockFile(expected File0 as locked file #0, not File70, false): expected: 1, actual: 0
+	at edu.gmu.cs475.ManualClientUnlockAtEndTests.testCatAllLocksSameOrder(ManualClientUnlockAtEndTests.java:171)
+
+testEchoAllLocksSameOrder(edu.gmu.cs475.ManualClientUnlockAtEndTests)  Time elapsed: 0.142 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+  Unexpected method call IFileTagManager.lockFile("File50", true):
+    IFileTagManager.lockFile(expected File0 as locked file #0, not File50, true): expected: 1, actual: 1
+    IFileTagManager.lockFile(expected File1 as locked file #0, not File50, true): expected: 1, actual: 0
+	at edu.gmu.cs475.ManualClientUnlockAtEndTests.testEchoAllLocksSameOrder(ManualClientUnlockAtEndTests.java:225)
+

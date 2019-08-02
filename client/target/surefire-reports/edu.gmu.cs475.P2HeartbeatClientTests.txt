@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: edu.gmu.cs475.P2HeartbeatClientTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.933 sec - in edu.gmu.cs475.P2HeartbeatClientTests

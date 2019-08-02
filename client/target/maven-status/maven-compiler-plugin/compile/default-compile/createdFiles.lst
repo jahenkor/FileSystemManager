@@ -1,0 +1,7 @@
+edu/gmu/cs475/internal/Command.class
+edu/gmu/cs475/AbstractFileTagManagerClient.class
+edu/gmu/cs475/internal/Main$1.class
+edu/gmu/cs475/FileTagManagerClient$HeartbeatTask.class
+edu/gmu/cs475/FileTagManagerClient.class
+edu/gmu/cs475/internal/Main.class
+edu/gmu/cs475/internal/RunnerConfig.class

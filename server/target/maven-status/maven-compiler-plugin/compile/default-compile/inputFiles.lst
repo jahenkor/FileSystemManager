@@ -1,0 +1,8 @@
+/home/altruist/Development/CS475/assignment_two_cs475/server/src/main/java/edu/gmu/cs475/struct/ITaggedFile.java
+/home/altruist/Development/CS475/assignment_two_cs475/server/src/main/java/edu/gmu/cs475/FileTagManagerServer.java
+/home/altruist/Development/CS475/assignment_two_cs475/server/src/main/java/edu/gmu/cs475/Tag.java
+/home/altruist/Development/CS475/assignment_two_cs475/server/src/main/java/edu/gmu/cs475/struct/NoSuchTagException.java
+/home/altruist/Development/CS475/assignment_two_cs475/server/src/main/java/edu/gmu/cs475/struct/ITag.java
+/home/altruist/Development/CS475/assignment_two_cs475/server/src/main/java/edu/gmu/cs475/struct/TagExistsException.java
+/home/altruist/Development/CS475/assignment_two_cs475/server/src/main/java/edu/gmu/cs475/internal/ServerMain.java
+/home/altruist/Development/CS475/assignment_two_cs475/server/src/main/java/edu/gmu/cs475/TaggedFile.java
